@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+    background-color: #edc4b3;
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    width:100%;
+  background-color: #9d6b53;
+    
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #22333b;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    color: #432818;
+    margin-top: 12%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    width:28%;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.clr{
+    color: #6f1d1b;
+}
+.right{
+    margin-top: 5%;
+    background-image: url("portfolio-img1.png");
+    height: 500px;
+    width:500px;
+    background-position: center;
+    background-size: cover;
+    
+}
+#element{
+    color: #6f1d1b;
+}
+.secondmain{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left2{
+    margin-top:5%;
+    background-image: url("developer.png");
+    height: 400px;
+    width:400px;
+    background-position: center;
+    background-size: cover;
+}
+.right2{
+    margin-top:8%;
+    margin-left: 12%;
+    background-color:  #9d6b53;
+    padding-left: 2%;
+    width: 520px;
+    border-radius: 2%;
+}
+.right2:hover{
+    border: 2px solid black;
+    width:600px;
+}
+.skills{
+    padding-top: 2%;
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande' ;
+    font-style: oblique;
+}
+.skl{
+    text-decoration: underline;
+}
+.certification{
+    margin-top:2%;
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande' ;
+    font-style: oblique;
+}
+footer{
+    margin-top: 5%;
+    background-color: #9d6b53;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer a{
+    color: white;
+    margin-left:3%;
+}
